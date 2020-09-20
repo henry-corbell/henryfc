@@ -9689,11 +9689,6 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <label x="38.1" y="-35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="PAD19" gate="1" pin="P"/>
-<wire x1="-165.1" y1="76.2" x2="-162.56" y2="76.2" width="0.1524" layer="91"/>
-<label x="-160.02" y="76.2" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="PAD18" gate="1" pin="P"/>
 <wire x1="-165.1" y1="68.58" x2="-162.56" y2="68.58" width="0.1524" layer="91"/>
 <label x="-160.02" y="68.58" size="1.778" layer="95"/>
@@ -10627,6 +10622,11 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pinref part="PAD20" gate="1" pin="P"/>
 <wire x1="-165.1" y1="83.82" x2="-162.56" y2="83.82" width="0.1524" layer="91"/>
 <label x="-160.02" y="83.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PAD19" gate="1" pin="P"/>
+<wire x1="-165.1" y1="76.2" x2="-162.56" y2="76.2" width="0.1524" layer="91"/>
+<label x="-160.02" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">

@@ -9663,8 +9663,16 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </segment>
 <segment>
 <pinref part="D1" gate="G$1" pin="CATHODE"/>
-<wire x1="-190.5" y1="78.74" x2="-175.26" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="-190.5" y1="78.74" x2="-187.96" y2="78.74" width="0.1524" layer="91"/>
 <label x="-175.26" y="78.74" size="1.778" layer="95"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="-187.96" y1="78.74" x2="-177.8" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="-177.8" y1="78.74" x2="-175.26" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="-187.96" y1="73.66" x2="-187.96" y2="78.74" width="0.1524" layer="91"/>
+<junction x="-187.96" y="78.74"/>
+<pinref part="C26" gate="G$1" pin="2"/>
+<wire x1="-177.8" y1="73.66" x2="-177.8" y2="78.74" width="0.1524" layer="91"/>
+<junction x="-177.8" y="78.74"/>
 </segment>
 <segment>
 <pinref part="PS1" gate="G$1" pin="VIN"/>

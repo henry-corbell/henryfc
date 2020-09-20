@@ -10619,6 +10619,18 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <junction x="48.26" y="40.64"/>
 </segment>
 </net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="IC5" gate="G$1" pin="OUTPUT_1"/>
+<wire x1="50.8" y1="2.54" x2="48.26" y2="2.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="OUTPUT_1"/>
+<wire x1="50.8" y1="38.1" x2="48.26" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
