@@ -9247,7 +9247,7 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <sheets>
 <sheet>
 <plain>
-<frame x1="-259.08" y1="-104.14" x2="144.78" y2="157.48" columns="8" rows="5" layer="91"/>
+<frame x1="-264.16" y1="-104.14" x2="139.7" y2="157.48" columns="8" rows="5" layer="91"/>
 <text x="78.74" y="-88.9" size="1.778" layer="91">TITLE:    HENRYFC</text>
 <text x="119.38" y="-88.9" size="1.778" layer="91">REV:    1.0</text>
 <text x="81.28" y="-96.52" size="1.778" layer="91">SHEET:   1/1</text>
@@ -9687,11 +9687,6 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <wire x1="43.18" y1="-35.56" x2="38.1" y2="-35.56" width="0.1524" layer="91"/>
 <junction x="43.18" y="-35.56"/>
 <label x="38.1" y="-35.56" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="PAD19" gate="1" pin="P"/>
-<wire x1="-165.1" y1="76.2" x2="-162.56" y2="76.2" width="0.1524" layer="91"/>
-<label x="-160.02" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="PAD18" gate="1" pin="P"/>
@@ -10627,6 +10622,11 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pinref part="PAD20" gate="1" pin="P"/>
 <wire x1="-165.1" y1="83.82" x2="-162.56" y2="83.82" width="0.1524" layer="91"/>
 <label x="-160.02" y="83.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="PAD19" gate="1" pin="P"/>
+<wire x1="-165.1" y1="76.2" x2="-162.56" y2="76.2" width="0.1524" layer="91"/>
+<label x="-160.02" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">

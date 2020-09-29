@@ -3331,8 +3331,8 @@ Please make sure your boards conform to these design rules.
 <wire x1="17.6578875" y1="7.53878125" x2="17.23024375" y2="7.966425" width="0.254" layer="1"/>
 <wire x1="17.23024375" y1="7.966425" x2="16.29338125" y2="7.966425" width="0.254" layer="1"/>
 <wire x1="18.66771875" y1="7.53878125" x2="17.6578875" y2="7.53878125" width="0.254" layer="1"/>
-<wire x1="26.122734375" y1="16.30008125" x2="26.122734375" y2="17.102478125" width="0.508" layer="1"/>
-<wire x1="26.122734375" y1="17.102478125" x2="26.060465625" y2="17.164746875" width="0.508" layer="1"/>
+<wire x1="26.122734375" y1="16.30008125" x2="26.122734375" y2="17.102478125" width="0.3048" layer="1"/>
+<wire x1="26.122734375" y1="17.102478125" x2="26.060465625" y2="17.164746875" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="IC2" pad="16"/>
@@ -3957,6 +3957,7 @@ Please make sure your boards conform to these design rules.
 </mfgpreviewcolors>
 <errors>
 <approved hash="21,19,ed43ef45ef45ed43"/>
+<approved hash="21,19,5f355f375f0b5f0d"/>
 </errors>
 </board>
 </drawing>
