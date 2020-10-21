@@ -9249,9 +9249,9 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <plain>
 <frame x1="-264.16" y1="-104.14" x2="139.7" y2="157.48" columns="8" rows="5" layer="91"/>
 <text x="78.74" y="-88.9" size="1.778" layer="91">TITLE:    HENRYFC</text>
-<text x="119.38" y="-88.9" size="1.778" layer="91">REV:    1.0</text>
+<text x="119.38" y="-88.9" size="1.778" layer="91">REV:    1.1</text>
 <text x="81.28" y="-96.52" size="1.778" layer="91">SHEET:   1/1</text>
-<text x="114.3" y="-96.52" size="1.778" layer="91">DATE:    24/07/2020</text>
+<text x="111.76" y="-96.52" size="1.778" layer="91">DATE:    21/10/2020</text>
 </plain>
 <instances>
 <instance part="PS1" gate="G$1" x="55.88" y="-35.56" smashed="yes">
