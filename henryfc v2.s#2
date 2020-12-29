@@ -11155,6 +11155,7 @@ Source: &lt;a href="https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconduc
 <wire x1="312.42" y1="111.76" x2="350.52" y2="111.76" width="0.1524" layer="91"/>
 <junction x="312.42" y="111.76"/>
 <junction x="350.52" y="111.76"/>
+<label x="353.06" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="OTG_FS_DP" class="0">
@@ -11664,18 +11665,6 @@ Source: &lt;a href="https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconduc
 <wire x1="238.76" y1="195.58" x2="195.58" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="U$5" gate="G$1" pin="PB12"/>
-<wire x1="284.48" y1="205.74" x2="292.1" y2="205.74" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$22" class="0">
-<segment>
-<pinref part="U$5" gate="G$1" pin="PC1"/>
-<wire x1="284.48" y1="190.5" x2="292.1" y2="190.5" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="GYRO1_CS_PIN" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="PC2"/>
@@ -11799,6 +11788,10 @@ Source: &lt;a href="https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconduc
 </sheets>
 <errors>
 <approved hash="105,1,140.97,170.18,N$4,,,,,"/>
+<approved hash="106,1,284.48,205.74,N$17,,,,,"/>
+<approved hash="106,1,284.48,190.5,N$22,,,,,"/>
+<approved hash="106,1,284.48,152.4,RX5,,,,,"/>
+<approved hash="106,1,284.48,165.1,TX5,,,,,"/>
 <approved hash="110,1,312.42,104.14,5V,GND,,,,"/>
 <approved hash="110,1,195.58,220.98,3V3,GND,,,,"/>
 <approved hash="110,1,177.8,223.52,3V3,GND,,,,"/>
@@ -11821,6 +11814,13 @@ Source: &lt;a href="https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconduc
 <approved hash="111,1,322.58,111.76,5V,,,,,"/>
 <approved hash="111,1,322.58,106.68,CAM_S,,,,,"/>
 <approved hash="111,1,332.74,111.76,5V,,,,,"/>
+<approved hash="113,1,193.571,130.071,FRAME1,,,,,"/>
+<approved hash="115,1,265.557,142.24,OSC_OUT,,,,,"/>
+<approved hash="115,1,294.64,111.76,5V,,,,,"/>
+<approved hash="115,1,63.5,41.91,VCC,,,,,"/>
+<approved hash="115,1,257.81,78.74,XFB,,,,,"/>
+<approved hash="115,1,262.636,142.24,OSC_IN,,,,,"/>
+<approved hash="115,1,255.27,78.74,CLKIN,,,,,"/>
 </errors>
 </schematic>
 </drawing>

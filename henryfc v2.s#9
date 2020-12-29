@@ -10472,7 +10472,7 @@ Source: &lt;a href="https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconduc
 <text x="96.52" y="152.4" size="1.778" layer="91">GROUND PADS</text>
 <text x="139.7" y="147.32" size="1.778" layer="91">VCC VOLTAGE DIVIDER</text>
 <text x="182.88" y="152.4" size="1.778" layer="91">UART SOLDER PADS</text>
-<text x="233.68" y="185.42" size="1.778" layer="91">BOOT PADS</text>
+<text x="233.68" y="185.42" size="1.778" layer="91">BOOT JUMPER</text>
 <text x="276.86" y="154.94" size="1.778" layer="91">STATUS LED</text>
 <text x="187.96" y="304.8" size="1.778" layer="91">5V_REG-A POWER FOR GYRO, 3.3V, RX</text>
 <text x="187.96" y="302.26" size="1.778" layer="91">5V_REG-B POWER FOR PERIPHERALS, CAMERA, VTX, PADS</text>
@@ -11791,6 +11791,14 @@ Source: &lt;a href="https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconduc
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="C24" gate="G$1" pin="2"/>
 <wire x1="416.56" y1="238.76" x2="416.56" y2="248.92" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<wire x1="185.42" y1="309.88" x2="264.16" y2="309.88" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="309.88" x2="264.16" y2="294.64" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="294.64" x2="185.42" y2="294.64" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="294.64" x2="185.42" y2="309.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

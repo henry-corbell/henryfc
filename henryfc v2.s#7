@@ -10405,8 +10405,6 @@ Source: &lt;a href="https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconduc
 <part name="U$36" library="HenryFC" deviceset="SOLDERPAD" device=""/>
 <part name="U$23" library="HenryFC" deviceset="SOLDERPAD" device=""/>
 <part name="U$33" library="HenryFC" deviceset="SOLDERPAD" device=""/>
-<part name="U$35" library="HenryFC" deviceset="SOLDERPAD" device=""/>
-<part name="SUPPLY38" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="U$40" library="HenryFC" deviceset="POWER" device=""/>
 <part name="U$11" library="HenryFC" deviceset="BOOT_JUMPER" device=""/>
 <part name="U$54" library="HenryFC" deviceset="POWER" device=""/>
@@ -10454,6 +10452,7 @@ Source: &lt;a href="https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconduc
 <part name="U$58" library="HenryFC" deviceset="POWER" device=""/>
 <part name="U$29" library="HenryFC" deviceset="SOLDERPAD" device=""/>
 <part name="U$31" library="HenryFC" deviceset="SOLDERPAD" device=""/>
+<part name="U$35" library="HenryFC" deviceset="SOLDERPAD" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10629,8 +10628,6 @@ Source: &lt;a href="https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconduc
 <instance part="U$36" gate="G$1" x="190.5" y="200.66" smashed="yes"/>
 <instance part="U$23" gate="G$1" x="190.5" y="208.28" smashed="yes"/>
 <instance part="U$33" gate="G$1" x="226.06" y="157.48" smashed="yes"/>
-<instance part="U$35" gate="G$1" x="246.38" y="157.48" smashed="yes"/>
-<instance part="SUPPLY38" gate="GND" x="254" y="152.4" smashed="yes"/>
 <instance part="U$40" gate="G$1" x="233.68" y="160.02" smashed="yes"/>
 <instance part="U$11" gate="G$1" x="241.3" y="187.96" smashed="yes"/>
 <instance part="U$54" gate="G$1" x="251.46" y="190.5" smashed="yes"/>
@@ -10729,6 +10726,7 @@ Source: &lt;a href="https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconduc
 <instance part="U$58" gate="G$1" x="434.34" y="259.08" smashed="yes"/>
 <instance part="U$29" gate="G$1" x="299.72" y="226.06" smashed="yes"/>
 <instance part="U$31" gate="G$1" x="299.72" y="220.98" smashed="yes"/>
+<instance part="U$35" gate="G$1" x="109.22" y="177.8" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -10942,7 +10940,12 @@ Source: &lt;a href="https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconduc
 <junction x="116.84" y="162.56"/>
 <pinref part="U$21" gate="G$1" pin=" "/>
 <wire x1="114.3" y1="172.72" x2="116.84" y2="172.72" width="0.1524" layer="91"/>
+<pinref part="U$35" gate="G$1" pin=" "/>
+<wire x1="114.3" y1="177.8" x2="116.84" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="177.8" x2="116.84" y2="172.72" width="0.1524" layer="91"/>
+<junction x="116.84" y="172.72"/>
 <wire x1="116.84" y1="172.72" x2="116.84" y2="167.64" width="0.1524" layer="91"/>
+<junction x="116.84" y="167.64"/>
 </segment>
 <segment>
 <pinref part="SUPPLY35" gate="GND" pin="GND"/>
@@ -10957,12 +10960,6 @@ Source: &lt;a href="https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconduc
 <pinref part="SUPPLY34" gate="GND" pin="GND"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 <pinref part="R10" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="U$35" gate="G$1" pin=" "/>
-<wire x1="251.46" y1="157.48" x2="254" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="254" y1="157.48" x2="254" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="SUPPLY38" gate="GND" pin="GND"/>
 </segment>
 <segment>
 <pinref part="SUPPLY16" gate="GND" pin="GND"/>
