@@ -10158,21 +10158,15 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </description>
 <smd name="1" x="-0.558" y="0" dx="0.7" dy="0.5" layer="1"/>
 <smd name="2" x="0.558" y="0" dx="1.05" dy="0.5" layer="1"/>
-<text x="-0.109" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="-0.109" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<text x="-0.109" y="2.54" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-0.109" y="-2.54" size="1.27" layer="27" align="center">&gt;VALUE</text>
 <wire x1="-0.7" y1="0.4" x2="0.7" y2="0.4" width="0.2" layer="51"/>
 <wire x1="0.7" y1="0.4" x2="0.7" y2="-0.4" width="0.2" layer="51"/>
 <wire x1="0.7" y1="-0.4" x2="-0.7" y2="-0.4" width="0.2" layer="51"/>
 <wire x1="-0.7" y1="-0.4" x2="-0.7" y2="0.4" width="0.2" layer="51"/>
-<wire x1="-2.3" y1="1.4" x2="2.083" y2="1.4" width="0.1" layer="51"/>
-<wire x1="2.083" y1="1.4" x2="2.083" y2="-1.4" width="0.1" layer="51"/>
-<wire x1="2.083" y1="-1.4" x2="-2.3" y2="-1.4" width="0.1" layer="51"/>
-<wire x1="-2.3" y1="-1.4" x2="-2.3" y2="1.4" width="0.1" layer="51"/>
 <wire x1="-0.6" y1="0.4" x2="0.558" y2="0.4" width="0.1" layer="21"/>
 <wire x1="-0.6" y1="-0.4" x2="0.4" y2="-0.4" width="0.1" layer="21"/>
-<wire x1="-1.2" y1="0.2" x2="-1.2" y2="0.2" width="0.1" layer="21"/>
 <wire x1="-1.2" y1="0.2" x2="-1.3" y2="0.2" width="0.1" layer="21" curve="180"/>
-<wire x1="-1.3" y1="0.2" x2="-1.3" y2="0.2" width="0.1" layer="21"/>
 <wire x1="-1.3" y1="0.2" x2="-1.2" y2="0.2" width="0.1" layer="21" curve="180"/>
 </package>
 <package name="KRDELPS122UHVI26H3Q4">
@@ -10180,21 +10174,14 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </description>
 <smd name="1" x="-0.645" y="0" dx="0.7" dy="0.5" layer="1"/>
 <smd name="2" x="0.47" y="0" dx="1.05" dy="0.5" layer="1"/>
-<text x="-0.353" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="-0.353" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<text x="-0.353" y="2.54" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-0.353" y="-2.54" size="1.27" layer="27" align="center">&gt;VALUE</text>
 <wire x1="-0.7" y1="-0.4" x2="0.7" y2="-0.4" width="0.2" layer="51"/>
 <wire x1="0.7" y1="-0.4" x2="0.7" y2="0.4" width="0.2" layer="51"/>
 <wire x1="0.7" y1="0.4" x2="-0.7" y2="0.4" width="0.2" layer="51"/>
 <wire x1="-0.7" y1="0.4" x2="-0.7" y2="-0.4" width="0.2" layer="51"/>
-<wire x1="-2.7" y1="1.4" x2="1.995" y2="1.4" width="0.1" layer="51"/>
-<wire x1="1.995" y1="1.4" x2="1.995" y2="-1.4" width="0.1" layer="51"/>
-<wire x1="1.995" y1="-1.4" x2="-2.7" y2="-1.4" width="0.1" layer="51"/>
-<wire x1="-2.7" y1="-1.4" x2="-2.7" y2="1.4" width="0.1" layer="51"/>
-<wire x1="-1.7" y1="0.1" x2="-1.7" y2="0.1" width="0.2" layer="21"/>
 <wire x1="-1.7" y1="0.1" x2="-1.6" y2="0.1" width="0.2" layer="21" curve="180"/>
-<wire x1="-1.6" y1="0.1" x2="-1.6" y2="0.1" width="0.2" layer="21"/>
 <wire x1="-1.6" y1="0.1" x2="-1.7" y2="0.1" width="0.2" layer="21" curve="180"/>
-<wire x1="-1.7" y1="0.1" x2="-1.7" y2="0.1" width="0.2" layer="21"/>
 <wire x1="-1.7" y1="0.1" x2="-1.6" y2="0.1" width="0.2" layer="21" curve="180"/>
 </package>
 </packages>
@@ -10386,7 +10373,7 @@ Source: &lt;a href="https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconduc
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1K"/>
 <part name="SUPPLY35" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="U$39" library="HenryFC" deviceset="POWER" device=""/>
-<part name="LED1" library="SamacSys_Parts" deviceset="KB_DELPS2.12-QHRI-24-Z555-10-S" device="" override_package3d_urn="urn:adsk.eagle:package:22522683/2" override_package_urn="urn:adsk.eagle:footprint:22522684/1"/>
+<part name="LED1" library="SamacSys_Parts" deviceset="KB_DELPS2.12-QHRI-24-Z555-10-S" device="" override_package3d_urn="urn:adsk.eagle:package:22522683/2" override_package_urn="urn:adsk.eagle:footprint:22522684/1" override_locally_modified="yes"/>
 <part name="LED2" library="SamacSys_Parts" deviceset="KR_DELPS1.22-UHVI-26-H3Q4" device=""/>
 <part name="SUPPLY34" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1K"/>
@@ -11155,7 +11142,7 @@ Source: &lt;a href="https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconduc
 <label x="353.06" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="OTG_FS_DP" class="0">
+<net name="USBDATA_P" class="0">
 <segment>
 <pinref part="U$6" gate="G$1" pin="DP"/>
 <wire x1="58.42" y1="101.6" x2="60.96" y2="101.6" width="0.1524" layer="91"/>
@@ -11167,7 +11154,7 @@ Source: &lt;a href="https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconduc
 <label x="231.14" y="160.02" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="OTG_FS_DM" class="0">
+<net name="USBDATA_N" class="0">
 <segment>
 <pinref part="U$6" gate="G$1" pin="DM"/>
 <wire x1="58.42" y1="99.06" x2="60.96" y2="99.06" width="0.1524" layer="91"/>
@@ -11633,7 +11620,7 @@ Source: &lt;a href="https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconduc
 <pinref part="R9" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="OSC_IN" class="0">
+<net name="F7_P" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="PH0-OSC_IN"/>
 <wire x1="238.76" y1="200.66" x2="231.14" y2="200.66" width="0.1524" layer="91"/>
@@ -11644,7 +11631,7 @@ Source: &lt;a href="https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconduc
 <wire x1="263.144" y1="142.24" x2="262.128" y2="142.24" width="0.000253125" layer="91"/>
 </segment>
 </net>
-<net name="OSC_OUT" class="0">
+<net name="F7_N" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="PH1-OSC_OUT"/>
 <wire x1="238.76" y1="198.12" x2="231.14" y2="198.12" width="0.1524" layer="91"/>
@@ -11700,7 +11687,7 @@ Source: &lt;a href="https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconduc
 <label x="292.1" y="152.4" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="CLKIN" class="0">
+<net name="OSD_N" class="0">
 <segment>
 <pinref part="U$10" gate="G$1" pin="CLKIN"/>
 <wire x1="255.524" y1="78.74" x2="255.016" y2="78.74" width="0.0254" layer="91"/>
@@ -11711,7 +11698,7 @@ Source: &lt;a href="https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconduc
 <label x="231.14" y="111.76" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="XFB" class="0">
+<net name="OSD_P" class="0">
 <segment>
 <pinref part="U$10" gate="G$1" pin="XFB"/>
 <wire x1="257.556" y1="78.74" x2="258.064" y2="78.74" width="0.0254" layer="91"/>
