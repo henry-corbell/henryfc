@@ -2140,8 +2140,11 @@ design rules under a new name.</description>
 <contactref element="R3" pad="2"/>
 <contactref element="U$1" pad="1"/>
 <contactref element="TP4" pad="1"/>
+<wire x1="2.7" y1="6.7" x2="3.8" y2="7.8" width="0.1524" layer="1"/>
+<wire x1="3.8" y1="7.8" x2="3.8" y2="8.3" width="0.1524" layer="1"/>
+<wire x1="3.8" y1="8.3" x2="4.2" y2="8.7" width="0.1524" layer="1"/>
+<wire x1="4.2" y1="8.7" x2="5" y2="8.7" width="0.1524" layer="1"/>
 <wire x1="5" y1="8.7" x2="6.85" y2="13.3" width="0" layer="19" extent="1-1"/>
-<wire x1="2.7" y1="6.7" x2="5" y2="8.7" width="0" layer="19" extent="1-1"/>
 <wire x1="8.15" y1="4.1" x2="5" y2="8.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V">

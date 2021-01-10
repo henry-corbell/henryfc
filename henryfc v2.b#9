@@ -2169,12 +2169,12 @@ design rules under a new name.</description>
 <wire x1="6.3" y1="3.7" x2="13.05" y2="11.2" width="0" layer="19" extent="1-1"/>
 <wire x1="9.2" y1="27.6" x2="7.8" y2="15.3" width="0" layer="19" extent="1-16"/>
 </signal>
-<signal name="OTG_FS_DP">
+<signal name="USBDATA_P">
 <contactref element="U$6" pad="3"/>
 <contactref element="U$5" pad="45"/>
 <wire x1="4.175" y1="14.2" x2="15.15" y2="16.05" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="OTG_FS_DM">
+<signal name="USBDATA_N">
 <contactref element="U$6" pad="2"/>
 <contactref element="U$5" pad="44"/>
 <wire x1="4.175" y1="14.85" x2="14.65" y2="16.05" width="0" layer="19" extent="1-1"/>
