@@ -11155,6 +11155,7 @@ Source: &lt;a href="https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconduc
 <wire x1="312.42" y1="111.76" x2="350.52" y2="111.76" width="0.1524" layer="91"/>
 <junction x="312.42" y="111.76"/>
 <junction x="350.52" y="111.76"/>
+<label x="353.06" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="OTG_FS_DP" class="0">
@@ -11280,20 +11281,6 @@ Source: &lt;a href="https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconduc
 <wire x1="157.48" y1="231.14" x2="157.48" y2="233.68" width="0.1524" layer="91"/>
 <junction x="157.48" y="231.14"/>
 <junction x="157.48" y="233.68"/>
-</segment>
-</net>
-<net name="GYRO_1_CS_PIN" class="0">
-<segment>
-<pinref part="U$8" gate="G$1" pin="CS"/>
-<wire x1="314.96" y1="60.96" x2="312.42" y2="60.96" width="0.1524" layer="91"/>
-<label x="312.42" y="60.96" size="1.778" layer="95" rot="MR0"/>
-</segment>
-</net>
-<net name="GYRO_1_EXTI_PIN" class="0">
-<segment>
-<pinref part="U$8" gate="G$1" pin="INT"/>
-<wire x1="314.96" y1="58.42" x2="312.42" y2="58.42" width="0.1524" layer="91"/>
-<label x="312.42" y="58.42" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="SPI1_SCK_PIN" class="0">
@@ -11678,23 +11665,16 @@ Source: &lt;a href="https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconduc
 <wire x1="238.76" y1="195.58" x2="195.58" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="U$5" gate="G$1" pin="PB12"/>
-<wire x1="284.48" y1="205.74" x2="292.1" y2="205.74" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$22" class="0">
-<segment>
-<pinref part="U$5" gate="G$1" pin="PC1"/>
-<wire x1="284.48" y1="190.5" x2="292.1" y2="190.5" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="GYRO1_CS_PIN" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="PC2"/>
 <wire x1="284.48" y1="187.96" x2="292.1" y2="187.96" width="0.1524" layer="91"/>
 <label x="292.1" y="187.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="CS"/>
+<wire x1="314.96" y1="60.96" x2="312.42" y2="60.96" width="0.1524" layer="91"/>
+<label x="312.42" y="60.96" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="GYRO1_EXTI_PIN" class="0">
@@ -11702,6 +11682,11 @@ Source: &lt;a href="https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconduc
 <pinref part="U$5" gate="G$1" pin="PC3"/>
 <wire x1="284.48" y1="185.42" x2="292.1" y2="185.42" width="0.1524" layer="91"/>
 <label x="292.1" y="185.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="INT"/>
+<wire x1="314.96" y1="58.42" x2="312.42" y2="58.42" width="0.1524" layer="91"/>
+<label x="312.42" y="58.42" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="TX5" class="0">
@@ -11801,6 +11786,42 @@ Source: &lt;a href="https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconduc
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="105,1,140.97,170.18,N$4,,,,,"/>
+<approved hash="106,1,284.48,205.74,N$17,,,,,"/>
+<approved hash="106,1,284.48,190.5,N$22,,,,,"/>
+<approved hash="106,1,284.48,152.4,RX5,,,,,"/>
+<approved hash="106,1,284.48,165.1,TX5,,,,,"/>
+<approved hash="110,1,312.42,104.14,5V,GND,,,,"/>
+<approved hash="110,1,195.58,220.98,3V3,GND,,,,"/>
+<approved hash="110,1,177.8,223.52,3V3,GND,,,,"/>
+<approved hash="110,1,185.42,223.52,3V3,GND,,,,"/>
+<approved hash="110,1,167.64,226.06,3V3,GND,,,,"/>
+<approved hash="110,1,322.58,106.68,CAM_S,GND,,,,"/>
+<approved hash="111,1,205.74,220.98,3V3,,,,,"/>
+<approved hash="111,1,195.58,220.98,3V3,,,,,"/>
+<approved hash="111,1,195.58,223.52,3V3,,,,,"/>
+<approved hash="111,1,185.42,223.52,3V3,,,,,"/>
+<approved hash="111,1,185.42,226.06,3V3,,,,,"/>
+<approved hash="111,1,177.8,223.52,3V3,,,,,"/>
+<approved hash="111,1,177.8,226.06,3V3,,,,,"/>
+<approved hash="111,1,167.64,226.06,3V3,,,,,"/>
+<approved hash="111,1,167.64,228.6,3V3,,,,,"/>
+<approved hash="111,1,195.58,193.04,BOOT,,,,,"/>
+<approved hash="111,1,302.26,104.14,5V,,,,,"/>
+<approved hash="111,1,312.42,104.14,5V,,,,,"/>
+<approved hash="111,1,312.42,106.68,CAM_S,,,,,"/>
+<approved hash="111,1,322.58,111.76,5V,,,,,"/>
+<approved hash="111,1,322.58,106.68,CAM_S,,,,,"/>
+<approved hash="111,1,332.74,111.76,5V,,,,,"/>
+<approved hash="113,1,193.571,130.071,FRAME1,,,,,"/>
+<approved hash="115,1,265.557,142.24,OSC_OUT,,,,,"/>
+<approved hash="115,1,294.64,111.76,5V,,,,,"/>
+<approved hash="115,1,63.5,41.91,VCC,,,,,"/>
+<approved hash="115,1,257.81,78.74,XFB,,,,,"/>
+<approved hash="115,1,262.636,142.24,OSC_IN,,,,,"/>
+<approved hash="115,1,255.27,78.74,CLKIN,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

@@ -73,9 +73,9 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="HenryFC">
+<library name="HenryFC" urn="urn:adsk.eagle:library:26615106">
 <packages>
-<package name="LGA16-3X3">
+<package name="LGA16-3X3" urn="urn:adsk.eagle:footprint:26615114/1" library_version="1">
 <smd name="16" x="-0.5" y="1.225" dx="0.35" dy="0.25" layer="1" roundness="5" rot="R90"/>
 <smd name="15" x="0" y="1.225" dx="0.35" dy="0.25" layer="1" roundness="5" rot="R90"/>
 <smd name="14" x="0.5" y="1.225" dx="0.35" dy="0.25" layer="1" roundness="5" rot="R90"/>
@@ -98,13 +98,13 @@
 <wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0.1016" layer="21"/>
 <wire x1="1.5" y1="1.5" x2="-1.5" y2="1.5" width="0.1016" layer="21"/>
 </package>
-<package name="TESTPOINT">
+<package name="TESTPOINT" urn="urn:adsk.eagle:footprint:26615107/1" library_version="1">
 <smd name="1" x="0" y="0" dx="1.5" dy="1.5" layer="1" roundness="100"/>
 </package>
-<package name="SOLDERPAD">
+<package name="SOLDERPAD" urn="urn:adsk.eagle:footprint:26615108/1" library_version="1">
 <smd name="1" x="0" y="0" dx="2.5" dy="1.25" layer="1" roundness="5"/>
 </package>
-<package name="SOT-223">
+<package name="SOT-223" urn="urn:adsk.eagle:footprint:26615115/1" library_version="1">
 <smd name="4" x="0" y="3" dx="1.4" dy="3.5" layer="1" roundness="5" rot="R270"/>
 <smd name="1" x="-2.3" y="-3" dx="1.2" dy="1.4" layer="1" roundness="5"/>
 <smd name="2" x="0" y="-3" dx="1.2" dy="1.4" layer="1" roundness="5"/>
@@ -114,7 +114,7 @@
 <wire x1="3.5" y1="2" x2="-3.5" y2="2" width="0.1016" layer="21"/>
 <wire x1="-3.5" y1="2" x2="-3.5" y2="-2" width="0.1016" layer="21"/>
 </package>
-<package name="SSOP5">
+<package name="SSOP5" urn="urn:adsk.eagle:footprint:26615117/1" library_version="1">
 <smd name="2" x="0" y="-1.2" dx="0.6" dy="1" layer="1" roundness="5" rot="R180"/>
 <smd name="3" x="0.95" y="-1.2" dx="0.6" dy="1" layer="1" roundness="5" rot="R180"/>
 <smd name="4" x="0.95" y="1.2" dx="0.6" dy="1" layer="1" roundness="5" rot="R180"/>
@@ -125,7 +125,7 @@
 <wire x1="-1.3" y1="0.65" x2="1.3" y2="0.65" width="0.0762" layer="21"/>
 <wire x1="1.3" y1="0.65" x2="1.3" y2="-0.65" width="0.0762" layer="21"/>
 </package>
-<package name="SOT-23">
+<package name="SOT-23" urn="urn:adsk.eagle:footprint:26615113/1" library_version="1">
 <smd name="3" x="0" y="1" dx="0.7" dy="0.9" layer="1" roundness="5"/>
 <smd name="1" x="-0.95" y="-1" dx="0.7" dy="0.9" layer="1" roundness="5"/>
 <smd name="2" x="0.95" y="-1" dx="0.7" dy="0.9" layer="1" roundness="5"/>
@@ -134,7 +134,7 @@
 <wire x1="1.5" y1="-0.5" x2="1.5" y2="0.5" width="0.1016" layer="21"/>
 <wire x1="1.5" y1="0.5" x2="-1.5" y2="0.5" width="0.1016" layer="21"/>
 </package>
-<package name="MICRO-USB">
+<package name="MICRO-USB" urn="urn:adsk.eagle:footprint:26615112/1" library_version="1">
 <smd name="1" x="-1.3" y="2.675" dx="0.4" dy="1.35" layer="1" roundness="5"/>
 <smd name="2" x="-0.65" y="2.675" dx="0.4" dy="1.35" layer="1" roundness="5"/>
 <smd name="3" x="0" y="2.675" dx="0.4" dy="1.35" layer="1" roundness="5"/>
@@ -144,11 +144,11 @@
 <smd name="6" x="-3.15" y="0" dx="1.9" dy="1.8" layer="1" roundness="5" rot="R180"/>
 <wire x1="5" y1="-1.45" x2="-5" y2="-1.45" width="0.1524" layer="21"/>
 </package>
-<package name="BOOT_JUMPER">
+<package name="BOOT_JUMPER" urn="urn:adsk.eagle:footprint:26615109/1" library_version="1">
 <smd name="1" x="0" y="1" dx="1.6" dy="0.8" layer="1" roundness="5"/>
 <smd name="2" x="0" y="-1" dx="1.6" dy="0.8" layer="1" roundness="5"/>
 </package>
-<package name="LQFP64">
+<package name="LQFP64" urn="urn:adsk.eagle:footprint:26615118/1" library_version="1">
 <smd name="1" x="-3.75" y="-5.75" dx="0.3" dy="1.2" layer="1" roundness="5"/>
 <smd name="2" x="-3.25" y="-5.75" dx="0.3" dy="1.2" layer="1" roundness="5"/>
 <smd name="3" x="-2.75" y="-5.75" dx="0.3" dy="1.2" layer="1" roundness="5"/>
@@ -223,41 +223,41 @@
 <wire x1="-5" y1="-5" x2="-5" y2="5" width="0.127" layer="21"/>
 <circle x="-5" y="-6" radius="0.5" width="0.0762" layer="21"/>
 </package>
-<package name="ECX-32-XTAL">
+<package name="ECX-32-XTAL" urn="urn:adsk.eagle:footprint:26615110/1" library_version="1">
 <smd name="4" x="-1.15" y="0.9" dx="1.1" dy="1.3" layer="1" roundness="5" rot="R90"/>
 <smd name="3" x="1.15" y="0.9" dx="1.1" dy="1.3" layer="1" roundness="5" rot="R90"/>
 <smd name="1" x="-1.15" y="-0.9" dx="1.1" dy="1.3" layer="1" roundness="5" rot="R90"/>
 <smd name="2" x="1.15" y="-0.9" dx="1.1" dy="1.3" layer="1" roundness="5" rot="R90"/>
 </package>
-<package name="SSOP28">
-<smd name="25" x="-2.275" y="2.85" dx="0.5" dy="1.15" layer="1" roundness="5"/>
-<smd name="26" x="-2.925" y="2.85" dx="0.5" dy="1.15" layer="1" roundness="5"/>
-<smd name="27" x="-3.575" y="2.85" dx="0.5" dy="1.15" layer="1" roundness="5"/>
-<smd name="28" x="-4.225" y="2.85" dx="0.5" dy="1.15" layer="1" roundness="5"/>
-<smd name="24" x="-1.625" y="2.85" dx="0.5" dy="1.15" layer="1" roundness="5"/>
-<smd name="23" x="-0.975" y="2.85" dx="0.5" dy="1.15" layer="1" roundness="5"/>
-<smd name="22" x="-0.325" y="2.85" dx="0.5" dy="1.15" layer="1" roundness="5"/>
-<smd name="21" x="0.325" y="2.85" dx="0.5" dy="1.15" layer="1" roundness="5"/>
-<smd name="20" x="0.975" y="2.85" dx="0.5" dy="1.15" layer="1" roundness="5"/>
-<smd name="19" x="1.625" y="2.85" dx="0.5" dy="1.15" layer="1" roundness="5"/>
-<smd name="18" x="2.275" y="2.85" dx="0.5" dy="1.15" layer="1" roundness="5"/>
-<smd name="17" x="2.925" y="2.85" dx="0.5" dy="1.15" layer="1" roundness="5"/>
-<smd name="16" x="3.575" y="2.85" dx="0.5" dy="1.15" layer="1" roundness="5"/>
-<smd name="15" x="4.225" y="2.85" dx="0.5" dy="1.15" layer="1" roundness="5"/>
-<smd name="1" x="-4.225" y="-2.85" dx="0.5" dy="1.15" layer="1" roundness="5"/>
-<smd name="4" x="-2.275" y="-2.85" dx="0.5" dy="1.15" layer="1" roundness="5"/>
-<smd name="3" x="-2.925" y="-2.85" dx="0.5" dy="1.15" layer="1" roundness="5"/>
-<smd name="2" x="-3.575" y="-2.85" dx="0.5" dy="1.15" layer="1" roundness="5"/>
-<smd name="5" x="-1.625" y="-2.85" dx="0.5" dy="1.15" layer="1" roundness="5"/>
-<smd name="6" x="-0.975" y="-2.85" dx="0.5" dy="1.15" layer="1" roundness="5"/>
-<smd name="7" x="-0.325" y="-2.85" dx="0.5" dy="1.15" layer="1" roundness="5"/>
-<smd name="8" x="0.325" y="-2.85" dx="0.5" dy="1.15" layer="1" roundness="5"/>
-<smd name="9" x="0.975" y="-2.85" dx="0.5" dy="1.15" layer="1" roundness="5"/>
-<smd name="10" x="1.625" y="-2.85" dx="0.5" dy="1.15" layer="1" roundness="5"/>
-<smd name="11" x="2.275" y="-2.85" dx="0.5" dy="1.15" layer="1" roundness="5"/>
-<smd name="12" x="2.925" y="-2.85" dx="0.5" dy="1.15" layer="1" roundness="5"/>
-<smd name="13" x="3.575" y="-2.85" dx="0.5" dy="1.15" layer="1" roundness="5"/>
-<smd name="14" x="4.225" y="-2.85" dx="0.5" dy="1.15" layer="1" roundness="5"/>
+<package name="SSOP28" urn="urn:adsk.eagle:footprint:26615116/2" library_version="2">
+<smd name="25" x="-2.275" y="2.85" dx="0.3" dy="1.2" layer="1" roundness="5"/>
+<smd name="26" x="-2.925" y="2.85" dx="0.3" dy="1.2" layer="1" roundness="5"/>
+<smd name="27" x="-3.575" y="2.85" dx="0.3" dy="1.2" layer="1" roundness="5"/>
+<smd name="28" x="-4.225" y="2.85" dx="0.3" dy="1.2" layer="1" roundness="5"/>
+<smd name="24" x="-1.625" y="2.85" dx="0.3" dy="1.2" layer="1" roundness="5"/>
+<smd name="23" x="-0.975" y="2.85" dx="0.3" dy="1.2" layer="1" roundness="5"/>
+<smd name="22" x="-0.325" y="2.85" dx="0.3" dy="1.2" layer="1" roundness="5"/>
+<smd name="21" x="0.325" y="2.85" dx="0.3" dy="1.2" layer="1" roundness="5"/>
+<smd name="20" x="0.975" y="2.85" dx="0.3" dy="1.2" layer="1" roundness="5"/>
+<smd name="19" x="1.625" y="2.85" dx="0.3" dy="1.2" layer="1" roundness="5"/>
+<smd name="18" x="2.275" y="2.85" dx="0.3" dy="1.2" layer="1" roundness="5"/>
+<smd name="17" x="2.925" y="2.85" dx="0.3" dy="1.2" layer="1" roundness="5"/>
+<smd name="16" x="3.575" y="2.85" dx="0.3" dy="1.2" layer="1" roundness="5"/>
+<smd name="15" x="4.225" y="2.85" dx="0.3" dy="1.2" layer="1" roundness="5"/>
+<smd name="1" x="-4.225" y="-2.85" dx="0.3" dy="1.2" layer="1" roundness="5"/>
+<smd name="4" x="-2.275" y="-2.85" dx="0.3" dy="1.2" layer="1" roundness="5"/>
+<smd name="3" x="-2.925" y="-2.85" dx="0.3" dy="1.2" layer="1" roundness="5"/>
+<smd name="2" x="-3.575" y="-2.85" dx="0.3" dy="1.2" layer="1" roundness="5"/>
+<smd name="5" x="-1.625" y="-2.85" dx="0.3" dy="1.2" layer="1" roundness="5"/>
+<smd name="6" x="-0.975" y="-2.85" dx="0.3" dy="1.2" layer="1" roundness="5"/>
+<smd name="7" x="-0.325" y="-2.85" dx="0.3" dy="1.2" layer="1" roundness="5"/>
+<smd name="8" x="0.325" y="-2.85" dx="0.3" dy="1.2" layer="1" roundness="5"/>
+<smd name="9" x="0.975" y="-2.85" dx="0.3" dy="1.2" layer="1" roundness="5"/>
+<smd name="10" x="1.625" y="-2.85" dx="0.3" dy="1.2" layer="1" roundness="5"/>
+<smd name="11" x="2.275" y="-2.85" dx="0.3" dy="1.2" layer="1" roundness="5"/>
+<smd name="12" x="2.925" y="-2.85" dx="0.3" dy="1.2" layer="1" roundness="5"/>
+<smd name="13" x="3.575" y="-2.85" dx="0.3" dy="1.2" layer="1" roundness="5"/>
+<smd name="14" x="4.225" y="-2.85" dx="0.3" dy="1.2" layer="1" roundness="5"/>
 <smd name="P$29" x="0" y="0" dx="2.74" dy="4.75" layer="1" roundness="5" rot="R90"/>
 <wire x1="-4.8" y1="-2.2" x2="-4.8" y2="2.2" width="0.1016" layer="21"/>
 <wire x1="-4.8" y1="2.2" x2="4.8" y2="2.2" width="0.1016" layer="21"/>
@@ -265,15 +265,77 @@
 <wire x1="4.8" y1="-2.2" x2="-4.8" y2="-2.2" width="0.1016" layer="21"/>
 <circle x="-5.8" y="-3" radius="0.412309375" width="0.1016" layer="21"/>
 </package>
-<package name="3.2X2.5-XTAL">
+<package name="3.2X2.5-XTAL" urn="urn:adsk.eagle:footprint:26615111/1" library_version="1">
 <smd name="3" x="1.1" y="0.8" dx="1.2" dy="1.4" layer="1" roundness="5" rot="R270"/>
 <smd name="4" x="-1.1" y="0.8" dx="1.2" dy="1.4" layer="1" roundness="5" rot="R90"/>
 <smd name="1" x="-1.1" y="-0.8" dx="1.2" dy="1.4" layer="1" roundness="5" rot="R90"/>
 <smd name="2" x="1.1" y="-0.8" dx="1.2" dy="1.4" layer="1" roundness="5" rot="R90"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="LGA16-3X3" urn="urn:adsk.eagle:package:26615140/1" type="box" library_version="1">
+<packageinstances>
+<packageinstance name="LGA16-3X3"/>
+</packageinstances>
+</package3d>
+<package3d name="TESTPOINT" urn="urn:adsk.eagle:package:26615133/1" type="box" library_version="1">
+<packageinstances>
+<packageinstance name="TESTPOINT"/>
+</packageinstances>
+</package3d>
+<package3d name="SOLDERPAD" urn="urn:adsk.eagle:package:26615134/1" type="box" library_version="1">
+<packageinstances>
+<packageinstance name="SOLDERPAD"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT-223" urn="urn:adsk.eagle:package:26615141/1" type="box" library_version="1">
+<packageinstances>
+<packageinstance name="SOT-223"/>
+</packageinstances>
+</package3d>
+<package3d name="SSOP5" urn="urn:adsk.eagle:package:26615143/1" type="box" library_version="1">
+<packageinstances>
+<packageinstance name="SSOP5"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT-23" urn="urn:adsk.eagle:package:26615139/1" type="box" library_version="1">
+<packageinstances>
+<packageinstance name="SOT-23"/>
+</packageinstances>
+</package3d>
+<package3d name="MICRO-USB" urn="urn:adsk.eagle:package:26615138/1" type="box" library_version="1">
+<packageinstances>
+<packageinstance name="MICRO-USB"/>
+</packageinstances>
+</package3d>
+<package3d name="BOOT_JUMPER" urn="urn:adsk.eagle:package:26615135/1" type="box" library_version="1">
+<packageinstances>
+<packageinstance name="BOOT_JUMPER"/>
+</packageinstances>
+</package3d>
+<package3d name="LQFP64" urn="urn:adsk.eagle:package:26615144/1" type="box" library_version="1">
+<packageinstances>
+<packageinstance name="LQFP64"/>
+</packageinstances>
+</package3d>
+<package3d name="ECX-32-XTAL" urn="urn:adsk.eagle:package:26615136/1" type="box" library_version="1">
+<packageinstances>
+<packageinstance name="ECX-32-XTAL"/>
+</packageinstances>
+</package3d>
+<package3d name="SSOP28" urn="urn:adsk.eagle:package:26615142/2" type="box" library_version="2">
+<packageinstances>
+<packageinstance name="SSOP28"/>
+</packageinstances>
+</package3d>
+<package3d name="3.2X2.5-XTAL" urn="urn:adsk.eagle:package:26615137/1" type="box" library_version="1">
+<packageinstances>
+<packageinstance name="3.2X2.5-XTAL"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="ICM-20602">
+<symbol name="ICM-20602" urn="urn:adsk.eagle:symbol:26615128/1" library_version="1">
 <pin name="VDDIO" x="-17.78" y="-5.08" length="middle"/>
 <pin name="SCL/SPC" x="-17.78" y="5.08" length="middle"/>
 <pin name="SDA/SDI" x="-17.78" y="2.54" length="middle"/>
@@ -291,29 +353,29 @@
 <pin name="RESV@5" x="20.32" y="-7.62" length="middle" rot="R180"/>
 <pin name="VDD" x="-17.78" y="-2.54" length="middle"/>
 <wire x1="-12.7" y1="12.7" x2="-12.7" y2="-10.16" width="0.254" layer="94"/>
-<text x="-12.7" y="15.24" size="2.1844" layer="95">&gt;Value</text>
 <wire x1="-12.7" y1="-10.16" x2="15.24" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-10.16" x2="15.24" y2="12.7" width="0.254" layer="94"/>
 <wire x1="15.24" y1="12.7" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
+<text x="-12.7" y="15.24" size="2.1844" layer="95">&gt;Value</text>
 <text x="-12.7" y="17.78" size="2.1844" layer="95">&gt;Name</text>
 </symbol>
-<symbol name="TESTPOINT">
+<symbol name="TESTPOINT" urn="urn:adsk.eagle:symbol:26615121/1" library_version="1">
 <pin name=" " x="2.54" y="0" length="middle" rot="R180"/>
 <circle x="-3.81" y="0" radius="1.27" width="0.1524" layer="94"/>
 </symbol>
-<symbol name="SOLDERPAD">
+<symbol name="SOLDERPAD" urn="urn:adsk.eagle:symbol:26615122/1" library_version="1">
 <pin name=" " x="5.08" y="0" length="middle" rot="R180"/>
 <wire x1="0" y1="1.27" x2="-2.54" y2="1.27" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="1.27" x2="-2.54" y2="-1.27" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="-1.27" x2="0" y2="-1.27" width="0.1524" layer="94"/>
 <wire x1="0" y1="-1.27" x2="0" y2="1.27" width="0.1524" layer="94"/>
 </symbol>
-<symbol name="POWER">
+<symbol name="POWER" urn="urn:adsk.eagle:symbol:26615119/1" library_version="1">
 <pin name="  " x="0" y="0" length="middle" rot="R90"/>
 <wire x1="0" y1="5.08" x2="-1.524" y2="3.302" width="0.1524" layer="94"/>
 <wire x1="0" y1="5.08" x2="1.524" y2="3.302" width="0.1524" layer="94"/>
 </symbol>
-<symbol name="LM317DCYR">
+<symbol name="LM317DCYR" urn="urn:adsk.eagle:symbol:26615129/1" library_version="1">
 <pin name="ADJUST" x="-12.7" y="2.54" length="middle"/>
 <pin name="OUTPUT" x="10.16" y="0" length="middle" rot="R180"/>
 <pin name="INPUT" x="-12.7" y="-2.54" length="middle"/>
@@ -324,7 +386,7 @@
 <text x="-7.62" y="10.16" size="2.1844" layer="95">&gt;Name</text>
 <text x="-7.62" y="7.62" size="2.1844" layer="95">&gt;Value</text>
 </symbol>
-<symbol name="BUXXSD5WG-3.3V-LDO">
+<symbol name="BUXXSD5WG-3.3V-LDO" urn="urn:adsk.eagle:symbol:26615131/1" library_version="1">
 <pin name="VIN" x="-12.7" y="0" length="middle"/>
 <pin name="GND" x="15.24" y="-2.54" length="middle" rot="R180"/>
 <pin name="STBY" x="-12.7" y="2.54" length="middle"/>
@@ -337,7 +399,7 @@
 <wire x1="10.16" y1="-5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
 <wire x1="10.16" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
 </symbol>
-<symbol name="BAT54C">
+<symbol name="BAT54C" urn="urn:adsk.eagle:symbol:26615127/1" library_version="1">
 <pin name="ANODE@1" x="-12.7" y="2.54" length="middle"/>
 <pin name="ANODE@2" x="-12.7" y="-2.54" length="middle"/>
 <pin name="CATHODE" x="12.7" y="0" length="middle" rot="R180"/>
@@ -348,7 +410,7 @@
 <text x="-7.62" y="10.16" size="2.1844" layer="95">&gt;Name</text>
 <text x="-7.62" y="7.62" size="2.1844" layer="95">&gt;Value</text>
 </symbol>
-<symbol name="MICRO-USB">
+<symbol name="MICRO-USB" urn="urn:adsk.eagle:symbol:26615126/1" library_version="1">
 <pin name="VCC" x="-15.24" y="5.08" length="middle"/>
 <pin name="DM" x="10.16" y="2.54" length="middle" rot="R180"/>
 <pin name="DP" x="10.16" y="5.08" length="middle" rot="R180"/>
@@ -363,13 +425,13 @@
 <text x="-10.16" y="12.7" size="2.1844" layer="95">&gt;Name</text>
 <text x="-10.16" y="10.16" size="2.1844" layer="95">&gt;Value</text>
 </symbol>
-<symbol name="BOOT_JUMPER">
+<symbol name="BOOT_JUMPER" urn="urn:adsk.eagle:symbol:26615123/1" library_version="1">
 <pin name=" " x="-7.62" y="0" length="middle"/>
 <pin name="  " x="7.62" y="0" length="middle" rot="R180"/>
 <wire x1="-2.54" y1="0" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
 <text x="-2.54" y="5.08" size="1.778" layer="95">BOOT</text>
 </symbol>
-<symbol name="STM32F722">
+<symbol name="STM32F722" urn="urn:adsk.eagle:symbol:26615132/1" library_version="1">
 <pin name="VBAT" x="-22.86" y="43.18" length="middle"/>
 <pin name="PC13" x="22.86" y="-30.48" length="middle" rot="R180"/>
 <pin name="PC14-OSC32_IN" x="22.86" y="-33.02" length="middle" rot="R180"/>
@@ -441,7 +503,7 @@
 <text x="-17.78" y="50.8" size="2.1844" layer="95">&gt;Name</text>
 <text x="-17.78" y="48.26" size="2.1844" layer="95">&gt;Value</text>
 </symbol>
-<symbol name="ECX-32-8MHZ">
+<symbol name="ECX-32-8MHZ" urn="urn:adsk.eagle:symbol:26615124/1" library_version="1">
 <pin name="OSC_OUT" x="1.016" y="0" length="middle"/>
 <pin name="OSC_IN" x="-1.016" y="0" length="middle" rot="R180"/>
 <text x="-6.096" y="6.096" size="2.1844" layer="95">&gt;Name</text>
@@ -453,7 +515,7 @@
 <wire x1="-1.016" y1="2.54" x2="-1.016" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="1.016" y1="2.54" x2="1.016" y2="-2.54" width="0.254" layer="94"/>
 </symbol>
-<symbol name="MAX7456">
+<symbol name="MAX7456" urn="urn:adsk.eagle:symbol:26615130/1" library_version="1">
 <pin name="NC" x="-17.78" y="15.24" length="middle"/>
 <pin name="NC@1" x="-17.78" y="12.7" length="middle"/>
 <pin name="DVDD" x="-17.78" y="10.16" length="middle"/>
@@ -489,7 +551,7 @@
 <text x="-12.7" y="22.86" size="2.1844" layer="95" ratio="5">&gt;Name</text>
 <text x="-12.7" y="20.32" size="2.1844" layer="95" ratio="5">&gt;Value</text>
 </symbol>
-<symbol name="NX3225GA-27MHZ">
+<symbol name="NX3225GA-27MHZ" urn="urn:adsk.eagle:symbol:26615125/1" library_version="1">
 <pin name="XFB" x="1.016" y="0" length="middle"/>
 <pin name="CLKIN" x="-1.016" y="0" length="middle" rot="R180"/>
 <text x="-6.096" y="6.096" size="2.1844" layer="95">&gt;Name</text>
@@ -503,7 +565,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ICM-20602">
+<deviceset name="ICM-20602" urn="urn:adsk.eagle:component:26615153/1" library_version="1">
 <gates>
 <gate name="G$1" symbol="ICM-20602" x="27.94" y="-2.54"/>
 </gates>
@@ -527,13 +589,16 @@
 <connect gate="G$1" pin="VDD" pad="16"/>
 <connect gate="G$1" pin="VDDIO" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26615140/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TESTPOINT">
+<deviceset name="TESTPOINT" urn="urn:adsk.eagle:component:26615146/1" library_version="1">
 <gates>
 <gate name="G$1" symbol="TESTPOINT" x="0" y="0"/>
 </gates>
@@ -542,13 +607,16 @@
 <connects>
 <connect gate="G$1" pin=" " pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26615133/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SOLDERPAD">
+<deviceset name="SOLDERPAD" urn="urn:adsk.eagle:component:26615147/1" library_version="1">
 <gates>
 <gate name="G$1" symbol="SOLDERPAD" x="0" y="0"/>
 </gates>
@@ -557,13 +625,16 @@
 <connects>
 <connect gate="G$1" pin=" " pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26615134/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="POWER">
+<deviceset name="POWER" urn="urn:adsk.eagle:component:26615145/1" library_version="1">
 <gates>
 <gate name="G$1" symbol="POWER" x="0" y="0"/>
 </gates>
@@ -577,7 +648,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="LM317DCYR">
+<deviceset name="LM317DCYR" urn="urn:adsk.eagle:component:26615154/1" library_version="1">
 <gates>
 <gate name="G$1" symbol="LM317DCYR" x="22.86" y="-12.7"/>
 </gates>
@@ -588,13 +659,16 @@
 <connect gate="G$1" pin="INPUT" pad="3"/>
 <connect gate="G$1" pin="OUTPUT" pad="4"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26615141/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BUXXSD5WG-3.3V-LDO">
+<deviceset name="BUXXSD5WG-3.3V-LDO" urn="urn:adsk.eagle:component:26615156/1" library_version="1">
 <gates>
 <gate name="G$1" symbol="BUXXSD5WG-3.3V-LDO" x="-33.02" y="0"/>
 </gates>
@@ -607,13 +681,16 @@
 <connect gate="G$1" pin="VIN" pad="1"/>
 <connect gate="G$1" pin="VOUT" pad="5"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26615143/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BAT54C">
+<deviceset name="BAT54C" urn="urn:adsk.eagle:component:26615152/1" library_version="1">
 <gates>
 <gate name="G$1" symbol="BAT54C" x="0" y="-2.54"/>
 </gates>
@@ -624,13 +701,16 @@
 <connect gate="G$1" pin="ANODE@2" pad="2"/>
 <connect gate="G$1" pin="CATHODE" pad="3"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26615139/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MICRO-USB">
+<deviceset name="MICRO-USB" urn="urn:adsk.eagle:component:26615151/1" library_version="1">
 <gates>
 <gate name="G$1" symbol="MICRO-USB" x="0" y="0"/>
 </gates>
@@ -645,13 +725,16 @@
 <connect gate="G$1" pin="ID" pad="4"/>
 <connect gate="G$1" pin="VCC" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26615138/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BOOT_JUMPER">
+<deviceset name="BOOT_JUMPER" urn="urn:adsk.eagle:component:26615148/1" library_version="1">
 <gates>
 <gate name="G$1" symbol="BOOT_JUMPER" x="0" y="0"/>
 </gates>
@@ -661,13 +744,16 @@
 <connect gate="G$1" pin=" " pad="2"/>
 <connect gate="G$1" pin="  " pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26615135/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="STM32F722">
+<deviceset name="STM32F722" urn="urn:adsk.eagle:component:26615157/1" library_version="1">
 <gates>
 <gate name="G$1" symbol="STM32F722" x="0" y="40.64"/>
 </gates>
@@ -739,13 +825,16 @@
 <connect gate="G$1" pin="VSS@3" pad="63"/>
 <connect gate="G$1" pin="VSSA" pad="12"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26615144/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ECX-32-8MHZ">
+<deviceset name="ECX-32-8MHZ" urn="urn:adsk.eagle:component:26615149/1" library_version="1">
 <gates>
 <gate name="G$1" symbol="ECX-32-8MHZ" x="0" y="0"/>
 </gates>
@@ -755,13 +844,16 @@
 <connect gate="G$1" pin="OSC_IN" pad="3"/>
 <connect gate="G$1" pin="OSC_OUT" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26615136/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MAX7456">
+<deviceset name="MAX7456" urn="urn:adsk.eagle:component:26615155/2" library_version="2">
 <gates>
 <gate name="G$1" symbol="MAX7456" x="10.16" y="2.54"/>
 </gates>
@@ -797,13 +889,16 @@
 <connect gate="G$1" pin="VOUT" pad="26"/>
 <connect gate="G$1" pin="XFB" pad="6"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26615142/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="NX3225GA-27MHZ">
+<deviceset name="NX3225GA-27MHZ" urn="urn:adsk.eagle:component:26615150/1" library_version="1">
 <gates>
 <gate name="G$1" symbol="NX3225GA-27MHZ" x="0" y="0"/>
 </gates>
@@ -813,6 +908,9 @@
 <connect gate="G$1" pin="CLKIN" pad="1"/>
 <connect gate="G$1" pin="XFB" pad="3"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:26615137/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -10302,7 +10400,7 @@ Source: &lt;a href="https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconduc
 </class>
 </classes>
 <parts>
-<part name="U$8" library="HenryFC" deviceset="ICM-20602" device=""/>
+<part name="U$8" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="ICM-20602" device="" package3d_urn="urn:adsk.eagle:package:26615140/1"/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -10312,13 +10410,13 @@ Source: &lt;a href="https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconduc
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="2.2uF"/>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="U$59" library="HenryFC" deviceset="POWER" device=""/>
+<part name="U$59" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="POWER" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
-<part name="U$3" library="HenryFC" deviceset="LM317DCYR" device=""/>
+<part name="U$3" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="LM317DCYR" device="" package3d_urn="urn:adsk.eagle:package:26615141/1"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3k"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="U$4" library="HenryFC" deviceset="LM317DCYR" device=""/>
+<part name="U$4" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="LM317DCYR" device="" package3d_urn="urn:adsk.eagle:package:26615141/1"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1k"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3k"/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -10330,67 +10428,67 @@ Source: &lt;a href="https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconduc
 <part name="SUPPLY12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="U$45" library="HenryFC" deviceset="POWER" device=""/>
-<part name="U$46" library="HenryFC" deviceset="POWER" device=""/>
-<part name="U$47" library="HenryFC" deviceset="POWER" device=""/>
-<part name="U$48" library="HenryFC" deviceset="POWER" device=""/>
-<part name="U$2" library="HenryFC" deviceset="BUXXSD5WG-3.3V-LDO" device=""/>
+<part name="U$45" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="POWER" device=""/>
+<part name="U$46" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="POWER" device=""/>
+<part name="U$47" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="POWER" device=""/>
+<part name="U$48" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="POWER" device=""/>
+<part name="U$2" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="BUXXSD5WG-3.3V-LDO" device="" package3d_urn="urn:adsk.eagle:package:26615143/1"/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="U$37" library="HenryFC" deviceset="POWER" device=""/>
-<part name="U$38" library="HenryFC" deviceset="POWER" device=""/>
-<part name="U$1" library="HenryFC" deviceset="BAT54C" device=""/>
-<part name="U$50" library="HenryFC" deviceset="POWER" device=""/>
-<part name="U$51" library="HenryFC" deviceset="POWER" device=""/>
-<part name="U$52" library="HenryFC" deviceset="POWER" device=""/>
+<part name="U$37" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="POWER" device=""/>
+<part name="U$38" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="POWER" device=""/>
+<part name="U$1" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="BAT54C" device="" package3d_urn="urn:adsk.eagle:package:26615139/1"/>
+<part name="U$50" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="POWER" device=""/>
+<part name="U$51" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="POWER" device=""/>
+<part name="U$52" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="POWER" device=""/>
 <part name="SUPPLY39" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="U$6" library="HenryFC" deviceset="MICRO-USB" device=""/>
+<part name="U$6" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="MICRO-USB" device="" package3d_urn="urn:adsk.eagle:package:26615138/1"/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="U$49" library="HenryFC" deviceset="POWER" device=""/>
+<part name="U$49" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="POWER" device=""/>
 <part name="X1" library="con-jst" library_urn="urn:adsk.eagle:library:156" deviceset="SM07B-SRSS" device="-TB"/>
-<part name="U$55" library="HenryFC" deviceset="POWER" device=""/>
-<part name="TP4" library="HenryFC" deviceset="TESTPOINT" device=""/>
-<part name="U$44" library="HenryFC" deviceset="POWER" device=""/>
-<part name="TP2" library="HenryFC" deviceset="TESTPOINT" device=""/>
-<part name="U$41" library="HenryFC" deviceset="POWER" device=""/>
-<part name="TP1" library="HenryFC" deviceset="TESTPOINT" device=""/>
-<part name="U$15" library="HenryFC" deviceset="SOLDERPAD" device=""/>
-<part name="U$42" library="HenryFC" deviceset="POWER" device=""/>
-<part name="U$13" library="HenryFC" deviceset="SOLDERPAD" device=""/>
-<part name="U$14" library="HenryFC" deviceset="SOLDERPAD" device=""/>
-<part name="TP3" library="HenryFC" deviceset="TESTPOINT" device=""/>
-<part name="U$25" library="HenryFC" deviceset="SOLDERPAD" device=""/>
-<part name="U$43" library="HenryFC" deviceset="POWER" device=""/>
-<part name="U$21" library="HenryFC" deviceset="SOLDERPAD" device=""/>
-<part name="U$19" library="HenryFC" deviceset="SOLDERPAD" device=""/>
-<part name="U$20" library="HenryFC" deviceset="SOLDERPAD" device=""/>
+<part name="U$55" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="POWER" device=""/>
+<part name="TP4" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:26615133/1"/>
+<part name="U$44" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="POWER" device=""/>
+<part name="TP2" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:26615133/1"/>
+<part name="U$41" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="POWER" device=""/>
+<part name="TP1" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:26615133/1"/>
+<part name="U$15" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="SOLDERPAD" device="" package3d_urn="urn:adsk.eagle:package:26615134/1"/>
+<part name="U$42" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="POWER" device=""/>
+<part name="U$13" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="SOLDERPAD" device="" package3d_urn="urn:adsk.eagle:package:26615134/1"/>
+<part name="U$14" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="SOLDERPAD" device="" package3d_urn="urn:adsk.eagle:package:26615134/1"/>
+<part name="TP3" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="TESTPOINT" device="" package3d_urn="urn:adsk.eagle:package:26615133/1"/>
+<part name="U$25" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="SOLDERPAD" device="" package3d_urn="urn:adsk.eagle:package:26615134/1"/>
+<part name="U$43" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="POWER" device=""/>
+<part name="U$21" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="SOLDERPAD" device="" package3d_urn="urn:adsk.eagle:package:26615134/1"/>
+<part name="U$19" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="SOLDERPAD" device="" package3d_urn="urn:adsk.eagle:package:26615134/1"/>
+<part name="U$20" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="SOLDERPAD" device="" package3d_urn="urn:adsk.eagle:package:26615134/1"/>
 <part name="SUPPLY37" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="U$27" library="HenryFC" deviceset="SOLDERPAD" device=""/>
+<part name="U$27" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="SOLDERPAD" device="" package3d_urn="urn:adsk.eagle:package:26615134/1"/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1K"/>
 <part name="SUPPLY35" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="U$39" library="HenryFC" deviceset="POWER" device=""/>
+<part name="U$39" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="POWER" device=""/>
 <part name="LED1" library="SamacSys_Parts" deviceset="KB_DELPS2.12-QHRI-24-Z555-10-S" device="" override_package3d_urn="urn:adsk.eagle:package:22522683/2" override_package_urn="urn:adsk.eagle:footprint:22522684/1" override_locally_modified="yes"/>
 <part name="LED2" library="SamacSys_Parts" deviceset="KR_DELPS1.22-UHVI-26-H3Q4" device=""/>
 <part name="SUPPLY34" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1K"/>
 <part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1K"/>
-<part name="U$53" library="HenryFC" deviceset="POWER" device=""/>
-<part name="U$22" library="HenryFC" deviceset="SOLDERPAD" device=""/>
-<part name="U$24" library="HenryFC" deviceset="SOLDERPAD" device=""/>
-<part name="U$26" library="HenryFC" deviceset="SOLDERPAD" device=""/>
-<part name="U$28" library="HenryFC" deviceset="SOLDERPAD" device=""/>
-<part name="U$30" library="HenryFC" deviceset="SOLDERPAD" device=""/>
-<part name="U$32" library="HenryFC" deviceset="SOLDERPAD" device=""/>
-<part name="U$34" library="HenryFC" deviceset="SOLDERPAD" device=""/>
-<part name="U$36" library="HenryFC" deviceset="SOLDERPAD" device=""/>
-<part name="U$23" library="HenryFC" deviceset="SOLDERPAD" device=""/>
-<part name="U$11" library="HenryFC" deviceset="BOOT_JUMPER" device=""/>
-<part name="U$54" library="HenryFC" deviceset="POWER" device=""/>
-<part name="U$5" library="HenryFC" deviceset="STM32F722" device=""/>
+<part name="U$53" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="POWER" device=""/>
+<part name="U$22" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="SOLDERPAD" device="" package3d_urn="urn:adsk.eagle:package:26615134/1"/>
+<part name="U$24" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="SOLDERPAD" device="" package3d_urn="urn:adsk.eagle:package:26615134/1"/>
+<part name="U$26" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="SOLDERPAD" device="" package3d_urn="urn:adsk.eagle:package:26615134/1"/>
+<part name="U$28" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="SOLDERPAD" device="" package3d_urn="urn:adsk.eagle:package:26615134/1"/>
+<part name="U$30" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="SOLDERPAD" device="" package3d_urn="urn:adsk.eagle:package:26615134/1"/>
+<part name="U$32" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="SOLDERPAD" device="" package3d_urn="urn:adsk.eagle:package:26615134/1"/>
+<part name="U$34" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="SOLDERPAD" device="" package3d_urn="urn:adsk.eagle:package:26615134/1"/>
+<part name="U$36" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="SOLDERPAD" device="" package3d_urn="urn:adsk.eagle:package:26615134/1"/>
+<part name="U$23" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="SOLDERPAD" device="" package3d_urn="urn:adsk.eagle:package:26615134/1"/>
+<part name="U$11" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="BOOT_JUMPER" device="" package3d_urn="urn:adsk.eagle:package:26615135/1"/>
+<part name="U$54" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="POWER" device=""/>
+<part name="U$5" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="STM32F722" device="" package3d_urn="urn:adsk.eagle:package:26615144/1"/>
 <part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
@@ -10410,10 +10508,10 @@ Source: &lt;a href="https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconduc
 <part name="SUPPLY24" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
 <part name="SUPPLY25" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="U$9" library="HenryFC" deviceset="ECX-32-8MHZ" device=""/>
-<part name="U$56" library="HenryFC" deviceset="POWER" device=""/>
-<part name="U$7" library="HenryFC" deviceset="MAX7456" device=""/>
-<part name="U$10" library="HenryFC" deviceset="NX3225GA-27MHZ" device=""/>
+<part name="U$9" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="ECX-32-8MHZ" device="" package3d_urn="urn:adsk.eagle:package:26615136/1"/>
+<part name="U$56" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="POWER" device=""/>
+<part name="U$7" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="MAX7456" device="" package3d_urn="urn:adsk.eagle:package:26615142/2"/>
+<part name="U$10" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="NX3225GA-27MHZ" device="" package3d_urn="urn:adsk.eagle:package:26615137/1"/>
 <part name="SUPPLY26" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="0.1uF"/>
 <part name="SUPPLY27" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -10430,13 +10528,13 @@ Source: &lt;a href="https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconduc
 <part name="SUPPLY33" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="75"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="75"/>
-<part name="U$57" library="HenryFC" deviceset="POWER" device=""/>
-<part name="U$58" library="HenryFC" deviceset="POWER" device=""/>
-<part name="U$29" library="HenryFC" deviceset="SOLDERPAD" device=""/>
-<part name="U$31" library="HenryFC" deviceset="SOLDERPAD" device=""/>
-<part name="U$35" library="HenryFC" deviceset="SOLDERPAD" device=""/>
-<part name="U$33" library="HenryFC" deviceset="SOLDERPAD" device=""/>
-<part name="U$40" library="HenryFC" deviceset="POWER" device=""/>
+<part name="U$57" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="POWER" device=""/>
+<part name="U$58" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="POWER" device=""/>
+<part name="U$29" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="SOLDERPAD" device="" package3d_urn="urn:adsk.eagle:package:26615134/1"/>
+<part name="U$31" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="SOLDERPAD" device="" package3d_urn="urn:adsk.eagle:package:26615134/1"/>
+<part name="U$35" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="SOLDERPAD" device="" package3d_urn="urn:adsk.eagle:package:26615134/1"/>
+<part name="U$33" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="SOLDERPAD" device="" package3d_urn="urn:adsk.eagle:package:26615134/1"/>
+<part name="U$40" library="HenryFC" library_urn="urn:adsk.eagle:library:26615106" deviceset="POWER" device=""/>
 </parts>
 <sheets>
 <sheet>
